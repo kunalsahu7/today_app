@@ -1,6 +1,6 @@
-class OptionModel
+class Option
 {
   String? a,b,c,d;
 
-  OptionModel({this.a, this.b, this.c, this.d});
+  Option({this.a, this.b, this.c, this.d});
 }

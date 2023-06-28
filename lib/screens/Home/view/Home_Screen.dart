@@ -33,12 +33,12 @@ class _HomeScreenState extends State<HomeScreen> {
             } else if (snapshot.hasData) {
               QuizModel? l1 = snapshot.data;
               List<String> quetion = [];
-              List<OptionModel> options = [];
+              List<Option> options = [];
               for(Results results in l1!.results!)
               {
                 print("${results.incorrectAnswers![0]}");
                 quetion.add(results.question!);
-                options.add(OptionModel(
+                options.add(Option(
                     a: results.incorrectAnswers![0],
                     b: results.correctAnswer!,
                     c: results.incorrectAnswers![1],

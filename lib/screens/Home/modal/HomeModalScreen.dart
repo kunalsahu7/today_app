@@ -39,12 +39,6 @@ class QuizModel {
 
 }
 
-/// category : "Animals"
-/// type : "multiple"
-/// difficulty : "easy"
-/// question : "What is the fastest  land animal?"
-/// correct_answer : "Cheetah"
-/// incorrect_answers : ["Lion","Thomson&rsquo;s Gazelle","Pronghorn Antelope"]
 
 class Results {
   Results({
