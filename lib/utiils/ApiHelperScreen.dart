@@ -9,7 +9,7 @@ class ApiHelper {
 
   static ApiHelper apiHelper = ApiHelper._();
 
-  Future<QuizModel?> getData() async {
+  Future<QuizModel?> Data() async {
     String apiLink =
         "https://opentdb.com/api.php?amount=10&category=27&difficulty=easy&type=multiple";
     var response = await http.get(Uri.parse(apiLink));
